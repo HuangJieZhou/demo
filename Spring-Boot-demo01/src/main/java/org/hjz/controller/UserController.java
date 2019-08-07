@@ -20,6 +20,7 @@ public class UserController {
 			user.setPhone("1832015730"+i);
 			user.setAge(22+i);
 			list.add(user);
+			System.out.println(user);
 		}
 		return list;
 	}
